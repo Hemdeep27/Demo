@@ -1,23 +1,26 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import HomeView from "../views/HomeView.vue";
+import BoardView from "../views/BoardView.vue";
+import BoardView2 from "../views/BoardView2.vue";
+import BoardView3 from "../views/BoardView3.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
-    name: "home",
-    component: HomeView,
+    path: "/boardview1",
+    name: "boardview1",
+    component: BoardView,
   },
   {
-    path: "/about",
-    name: "about",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
+    path: "/boardview2",
+    name: "boardview2",
+    component: BoardView2,
+  },
+  {
+    path: "/boardview3",
+    name: "boardview3",
+    component: BoardView3,
   },
 ];
 

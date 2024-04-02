@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    {
+      "name": "Implement user authentication",
+      "description": "Add a login system with password hashing and email verification",
+      "ETA": "2023-03-10",
+      "storypoints": 5,
+      "status": "open"
+    },
+    {
+      "name": "Add payment processing",
+      "description": "Integrate Stripe API for credit card payments and Paypal for alternative payments",
+      "ETA": "2023-03-15",
+      "storypoints": 8,
+      "status": "open"
+    },
+    {
+      "name": "Optimize database queries",
+      "description": "Identify slow running queries and optimize them for better performance",
+      "ETA": "2023-03-20",
+      "storypoints": 3,
+      "status": "open"
+    },
+    {
+      "name": "Implement search functionality",
+      "description": "Allow users to search for content based on keywords and filters",
+      "ETA": "2023-03-25",
+      "storypoints": 6,
+      "status": "open"
+    }
+  ]
+}
+<b>{{ ticket.name }}</b> <br />
+        {{ ticket.description }} <br />
+        {{ ticket.ETA }} <br />
+        {{ ticket.storypoints }} <br />
+        <b>status</b>:{{ status }}
+
+

@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "name": "Create Landing Page",
+      "description": "Design and implement a visually appealing landing page with clear calls to action",
+      "ETA": "2023-04-01",
+      "storypoints": 10
+    },
+    {
+      "name": "Add Social Media Integration",
+      "description": "Integrate social media sharing and follow buttons for major platforms",
+      "ETA": "2023-04-07",
+      "storypoints": 3
+    },
+    {
+      "name": "Improve Site Speed",
+      "description": "Optimize images and scripts for faster load times",
+      "ETA": "2023-04-14",
+      "storypoints": 8
+    },
+    {
+      "name": "Implement Contact Form",
+      "description": "Create a simple contact form for users to reach out",
+      "ETA": "2023-04-21",
+      "storypoints": 5
+    }
+  ]
+}
