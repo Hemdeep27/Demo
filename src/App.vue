@@ -1,14 +1,26 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+    <header-component class="header-comp"></header-component>
+
     <router-view />
   </div>
 </template>
 
+<script>
+import HeaderComponent from "./components/HeaderComponent.vue";
+// import BoardsComponent from "./components/BoardsComponent.vue";
+export default {
+  components: { HeaderComponent },
+  // BoardsComponent },
+  setup() {},
+};
+</script>
+
 <style>
+* {
+  margin: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -17,16 +29,7 @@
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
+.header-comp {
+  box-shadow: 0 0px 30px rgba(0, 0, 0, 0.1);
 }
 </style>

@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "name": "Develop Mobile App",
+      "description": "Design and develop a mobile application for iOS and Android platforms",
+      "ETA": "2023-05-01",
+      "storypoints": 20
+    },
+    {
+      "name": "Integrate Payment Gateway",
+      "description": "Add payment processing functionality through a third-party payment gateway",
+      "ETA": "2023-05-10",
+      "storypoints": 6
+    },
+    {
+      "name": "Improve SEO",
+      "description": "Optimize website content and structure for better search engine ranking",
+      "ETA": "2023-05-20",
+      "storypoints": 12
+    },
+    {
+      "name": "Implement Push Notifications",
+      "description": "Allow users to receive push notifications for important updates and events",
+      "ETA": "2023-05-31",
+      "storypoints": 7
+    }
+  ]
+}
