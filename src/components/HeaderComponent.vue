@@ -4,7 +4,7 @@
       <router-link to="/yourwork">Your work</router-link> |
       <router-link to="/projects">Projects</router-link> |
       <router-link to="/filters">Filters</router-link> |
-      <router-link to="/dashboards">Dashboards</router-link> |
+      <router-link to="/dashboards">Dashboardssssss</router-link> |
       <router-link to="/people">People</router-link> |
       <router-link to="/apps">Apps</router-link>
     </nav>
